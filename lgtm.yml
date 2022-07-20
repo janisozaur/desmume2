@@ -1,0 +1,11 @@
+extraction:
+  cpp:
+    configure:
+      command:
+        - mkdir ./desmume/src/frontend/posix/build
+        - cd ./desmume/src/frontend/posix/build
+        - meson ..
+    index:
+      build_command:
+        - ninja
+
